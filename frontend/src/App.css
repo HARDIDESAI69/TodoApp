@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+  transition: transform 0.5s ease-in-out;
+}
+
+.App-logo:hover {
+  transform: scale(1.1) rotate(15deg);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-bounce infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin);
+  color: #fff;
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.App-link {
+  color: #ffe53b;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 2px solid #ffe53b;
+  border-radius: 25px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.App-link:hover {
+  background-color: #ffe53b;
+  color: #000;
+}
+
+@keyframes App-logo-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+i {
+  cursor: pointer;
+  font-size: 1.5em;
+  color: #fff;
+  transition: transform 0.3s, color 0.3s;
+}
+
+i:hover {
+  transform: scale(1.2);
+  color: #ffe53b;
+}
